@@ -43,7 +43,7 @@ if navbar == 'Basa Lemah oleh Asam Kuat':
     V_titran= st.number_input('masukkan :blue[volume titran]',value = 25.00)
     
     ka_titrat = st.number_input('masukkan :red[Kb titrat (10^5)]',value = 1.8)
-    ka = ka_titrat * 10**(-5)
+    kb = ka_titrat * 10**(-5)
     
     M_titrat= st.number_input('masukkan :blue[Molaritas titrat]',step = 0.0001, format = "%.4f", value = 0.1000)
     V_titrat= st.number_input('masukkan :blue[volume titrat]',value = 25.00)
